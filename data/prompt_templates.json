@@ -1,0 +1,11 @@
+{
+  "pipeline_meta": {
+    "version": "1.0.0",
+    "target_feature": "churn_prediction",
+    "optimization_metric": "accuracy"
+  },
+  "data_imputation_strategy": {
+    "age": "mean",
+    "total_spend": "zero_fill"
+  }
+}
